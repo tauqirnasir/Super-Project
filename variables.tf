@@ -6,7 +6,6 @@ variable "aws_region" {
 variable "aws_type" {
   description = "AWS ec2 type"
   default = "t3.medium"
-  subnet_id     = "subnet-047322bf237728f6a" 
 }
 
 variable "aws_ami" {
