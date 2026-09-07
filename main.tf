@@ -16,6 +16,7 @@ module "nexus_instance" {
   ami          = var.aws_ami  # Example AMI ID, replace with your desired AMI
   instance_type = var.aws_type             # Example instance type, replace with your desired type
   instance_name = "nexus"
+  subnet_id     = "subnet-047322bf237728f6a"
 }
 
 module "sonar_instance" {
