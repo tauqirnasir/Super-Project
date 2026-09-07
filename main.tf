@@ -24,6 +24,7 @@ module "sonar_instance" {
   ami          = var.aws_ami  # Example AMI ID, replace with your desired AMI
   instance_type = var.aws_type              # Example instance type, replace with your desired type
   instance_name = "sonar"
+  subnet_id     = var.subnet_id
 }
 
 module "test_instance" {
@@ -31,4 +32,5 @@ module "test_instance" {
   ami          = var.aws_ami  # Example AMI ID, replace with your desired AMI
   instance_type = var.aws_type              # Example instance type, replace with your desired type
   instance_name = "test"
+  subnet_id     = var.subnet_id
 }
