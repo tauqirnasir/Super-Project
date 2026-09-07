@@ -13,8 +13,4 @@ variable "aws_ami" {
   default = "ami-081b0a6eac00b4f53"
 }
 
-variable "subnet_id" {
-  description = "subnet"
-  default = "subnet-047322bf237728f6a"
-}
 
